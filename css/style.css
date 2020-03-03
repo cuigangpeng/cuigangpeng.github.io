@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#all{
+    width: 800px;
+    height: 100%;
+    margin:0 auto;
+}
+
+#top{
+    background-color: rgba(155, 155, 153, 0.712);
+    width: 800px;
+    height: 160px;
+    background-color: #5f?a789;
+}
+
+#top ul li{
+    margin: 10px 20px;
+    color: #ffffff;
+}
+
+#picture{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 90px;
+    height: 127px;
+    /* background-color: red; */
+    float: left;
+}
+
+#picture img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.name{
+    height: 80px;
+    width: 250px;
+    font-size: 30px;
+    line-height: 80px;
+    margin-left: 80px;
+    /* background-color: red; */
+    float: left;
+    color: #ffffff;
+}
+
+.job{
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+    line-height: 80px;
+    /* background-color: blue; */
+    float: left;
+    color: #ffffff; 
+}
+
+.top-left{
+    margin-left: 62px;
+    float: left;
+    /* background-color: yellow; */
+}
+
+.top-right{
+    margin-left: 73px;
+    float: left;
+    /* background-color: purple; */
+    
+}
+
+#project{
+    width: 800px;
+    height: 800px;
+}
+
+.project-top{
+    height: 60px;
+    line-height: 60px;
+    font-size: 26px;
+    margin-top: 10px;
+    background-color: rgba(155, 155, 153, 0.712);
+    color: #ffffff;
+    
+}
+.project-top span{
+    margin-left: 20px;
+}
+
+.project-main{
+    height: 800px;
+    background-color: rgb(221, 219, 219);
+}
+
+.project-main div{
+    width: 800px;
+    height: 160px;
+   border-top: 1px solid rgb(194, 192, 192);   
+}
+
+.project-main div>span{
+  margin-left: 20px;
+}
+
+#skill{
+    margin-top: 70px;
+    width: 800px;
+    height: 300px;
+    background-color: rgb(221, 219, 219);
+}
+
+.se{
+    width: 800px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 26px;
+    background-color: rgba(155, 155, 153, 0.712);
+    color: #ffffff;
+}
+
+#experience{
+    margin-top: 10px;
+    width: 800px;
+    height: 300px;
+    background-color: rgb(221, 219, 219);
+} 
+
+.se span{
+    margin-left: 20px;
+    font-size: 26px;
+}
