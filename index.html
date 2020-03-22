@@ -1,56 +1,274 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Resume|Cuigangpeng</title>
+    <title>理财宝</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="hf"></div>
-    <div id="all">
-        <div id="top">
-            <div id="picture">
-                <img src="images/picture.jpg" alt="">
-            </div>
-            <div class="name">
-                崔刚鹏
-            </div>
-            <div class="job">
-                Web前端工程师
-            </div>
-            <div class="top-left">
+    <header>
+        <nav class="top">
+            <span class="tel">理财热线：400-888-8888</span>
             <ul>
-                <li>沈阳理工大学/本科</li>
-                <li>男/1995.5</li>
+                <li><a href="javascript:;">登录</a></li>
+                <li><a href="javascript:;">快速注册</a></li>
+                <li><a href="javascript:;">关于</a></li>
+                <li><a href="javascript:;">帮助</a></li>
+                <li><a href="javascript:;">App下载</a></li>
             </ul>
-            </div>
-            <div class="top-right">
+        </nav>
+        <nav class="main">
+            <a href="javascript:;" class="brand"><img src="img/logo@1x.png" alt="回到首页"></a>
             <ul>
-                <li>电话：17301933649</li>
-                <li>邮箱：18240166757@163.com</li>
+                <li><a href="javascript:;">首页</a></li>
+                <li><a href="javascript:;">理财频道</a></li>
+                <li><a href="javascript:;">投资频道</a></li>
+                <li><a href="javascript:;">新手专区</a></li>
+                <li><a href="javascript:;">安全保障</a></li>
             </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="transaction clearfix">
+            <div class="trans-content">
+                <div class="trans-data">
+                    <span>平台累计成交金额</span>
+                    <span class="trans-money">89888</span>
+                    <span>万元</span>
+                </div>
+                <div class="trans-data">
+                    <span>过去七日成交金额</span>
+                    <span class="trans-money">9868</span>
+                    <span>万元</span>
+                </div>
+                <div class="trans-report">
+                    <a href="javascript:;">查看平台运营报告</a>
+                </div>
             </div>
-        </div>
-        <div id="project">
-            <div class="project-top"><span>项目</span></div>
-            <div class="project-main">
-                <div class="prject-main-chird"><span>小Ai买菜</span></div>
-                <div class="prject-main-chird"><span>番茄钟</span></div>
-                <div class="prject-main-chird"><span>旺财记账</span></div>
-                <div class="prject-main-chird"><span>杂牌翻译</span></div>
-                <div class="prject-main-chird"><span>后台管理系统</span></div>
+        </section>
+
+        <section class="ad">
+            <div class="item one">
+                <picture>
+                    <source srcset="img/ad001-l.png" media="(min-width:50em)">
+                    <source srcset="img/ad001-m.png" media="(min-width:30em)">
+                    <img src="img/ad001.png" >
+                </picture>
             </div>
-        </div>
-        <div class="se">
-            <div class="se-top"><span>技能</span></div>
-            <div class="se-bottom"></div>
-        </div>
-        <div class="se">
-            <div class="se-top"><span>经历</span></div>
-            <div class="se-bottom"></div>
-        </div>
+            <div class="item secondb" style="display: none;">
+                <picture>
+                    <source srcset="img/ad002-l.png" media="(min-width: 50em)">
+                    <source srcset="img/ad002-m.png" media="(min-width: 30em)">
+                    <img srcset="img/ad002.png">
+                </picture>
+            </div>
+            <div class="item third" style="display: none;">
+                <picture>
+                    <source srcset="img/ad003-l.png" media="(min-width: 50em)">
+                    <source srcset="img/ad003-m.png" media="(min-width: 30em)">
+                    <img srcset="img/ad003.png" >
+                </picture>
+            </div>
+            <div class="dot">
+                <ul class="bottom">
+                    <!-- <li class="current"></li>
+                    <li></li>
+                    <li></li> -->
+                </ul>
+            </div>
+        </section>
+
+        <section class="feature">
+            <div class="item">
+                <h3>安全</h3>
+                <p>国家AAA信用平台<br>银行资金托管<br>上市公司背景保证</p>
+            </div>
+            <div class="item">
+                <h3>权威</h3>
+                <p>中央电视台推荐<br>互联网百强企业<br>标准起草单位</p>
+            </div>
+            <div class="item">
+                <h3>省心</h3>
+                <p>100元起投<br>用户利益保障机制<br>保险公司承保</p>
+            </div>
+        </section>
+
+        <section class="notice clearfix">
+            <a href="javascript:;"><span>2019-12-31</span>元旦期间业务受理及值班公告</a>
+            <a href="" class="more">更多公告</a>
+        </section>
+
+        <section class="product clearfix">
+            <h2>固定期限产品
+                <em>甄选优质基金</em>
+                <em>省时省力</em>
+                <em>坐等收益</em>
+            </h2>
+
+            <div class="product-content">
+                <div class="item clearfix">
+                    <h3><em>3</em>个月</h3>
+                    <div class="info">
+                        <p>约定年化收益：<span class="year-rate">3.50% <i>起</i></span></p>
+                        <p>总成交金额：<span class="money">2888 <i>万元</i></span></p>
+                    </div>
+                    <div class="buy">
+                        <a href="javascript:;">购买</a>
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <h3><em>3-6</em>个月</h3>
+                    <div class="info">
+                        <p>约定年化收益：<span class="year-rate">3.60% <i>起</i></span></p>
+                        <p>总成交金额：<span class="money">3868 <i>万元</i></span></p>
+                    </div>
+                    <div class="buy">
+                        <a href="javascript:;">购买</a>
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <h3><em>6-12</em>个月</h3>
+                    <div class="info">
+                        <p>约定年化收益：<span class="year-rate">4.50% <i>起</i></span></p>
+                        <p>总成交金额：<span class="money">3134 <i>万元</i></span></p>
+                    </div>
+                    <div class="buy">
+                        <a href="javascript:;">购买</a>
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <h3><em>12-24</em>个月</h3>
+                    <div class="info">
+                        <p>约定年化收益：<span class="year-rate">5.40% <i>起</i></span></p>
+                        <p>总成交金额：<span class="money">4216 <i>万元</i></span></p>
+                    </div>
+                    <div class="buy">
+                        <a href="javascript:;">购买</a>
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <h3><em>24</em>个月以上</h3>
+                    <div class="info">
+                        <p>约定年化收益：<span class="year-rate">6.10% <i>起</i></span></p>
+                        <p>总成交金额：<span class="money">5192 <i>万元</i></span></p>
+                    </div>
+                    <div class="buy">
+                        <a href="javascript:;">购买</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product clearfix">
+            <h2>债权/散标产品
+                <em>自主投资</em>
+                <em>期限灵活</em>
+            </h2>
+
+            <div class="product-content">
+                <div class="item clearfix">
+                    <h3><em>3</em>个月<i>日常生活消费</i></h3>
+                    <div class="info">
+                        <p>约定年化收益：<span class="year-rate">5.50%</span></p>
+                        <p>金额：<span class="money">23600 <i>元</i></span></p>
+                    </div>
+                    <div class="buy">
+                        <a href="javascript:;">投标</a>
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <h3><em>5</em>个月<i>日常消费</i></h3>
+                    <div class="info">
+                        <p>约定年化收益：<span class="year-rate">5.20%</span></p>
+                        <p>金额：<span class="money">14500 <i>元</i></span></p>
+                    </div>
+                    <div class="buy">
+                        <a href="javascript:;">投标</a>
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <h3><em>7</em>个月<i>日常生活消费</i></h3>
+                    <div class="info">
+                        <p>约定年化收益：<span class="year-rate">4.50%</span></p>
+                        <p>金额：<span class="money">16400 <i>元</i></span></p>
+                    </div>
+                    <div class="buy">
+                        <a href="javascript:;" class="disabled">还款中</a>
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <h3><em>1</em>个月<i>租房</i></h3>
+                    <div class="info">
+                        <p>约定年化收益：<span class="year-rate">4.90%</span></p>
+                        <p>金额：<span class="money">18000 <i>元</i></span></p>
+                    </div>
+                    <div class="buy">
+                        <a href="javascript:;" class="disabled">还款中</a>
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <h3><em>12</em>个月以上<i>装修</i></h3>
+                    <div class="info">
+                        <p>约定年化收益：<span class="year-rate">6.10%</span></p>
+                        <p>金额：<span class="money">25100 <i>元</i></span></p>
+                    </div>
+                    <div class="buy">
+                        <a href="javascript:;" class="disabled">已满标</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav class="footer">
+            <div class="footer-content clearfix">
+                <p class="brand"></p>
+                <ul>
+                    <li class="title">关于我们</li>
+                    <li><a href="javascript:;">公司介绍</a></li>
+                    <li><a href="javascript:;">业务模式</a></li>
+                    <li><a href="javascript:;">合作机构</a></li>
+                    <li><a href="javascript:;">服务协议</a></li>
+                </ul>
+                <ul>
+                    <li class="title">风险防范</li>
+                    <li><a href="javascript:;">账户安全</a></li>
+                    <li><a href="javascript:;">安全保障</a></li>
+                </ul>
+                <ul>
+                    <li class="title">理财产品</li>
+                    <li><a href="javascript:;">固定期限</a></li>
+                    <li><a href="javascript:;">债权/散标</a></li>
+                </ul>
+                <ul>
+                    <li class="title">交易帮助</li>
+                    <li><a href="javascript:;">购买</a></li>
+                    <li><a href="javascript:;">赎回</a></li>
+                    <li><a href="javascript:;">提现</a></li>
+                </ul>
+                <ul>
+                    <li class="title">机构服务</li>
+                    <li><a href="javascript:;">机构中心</a></li>
+                    <li><a href="javascript:;">合作联系</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <div class="hf"></div>
+    <footer>
+        <ul>
+            <li><span class="icon icon-zfywxk">支付业务许可证</span></li>
+            <li><span class="icon icon-picrk">PCI认证</span></li>
+            <li><span class="icon icon-visayz">Visa 验证</span></li>
+            <li><span class="icon icon-vsjmfw">Versign 加密服务</span></li>
+            <li><span class="icon icon-wlgs">网络工商</span></li>
+            <li><span class="icon icon-rzcx">电子商务协会认证诚信网</span></li>
+            <li><span class="icon icon-gs">深圳工商</span></li>
+        </ul>
+        <p>深圳某互联网金融公司 版权所有 © 2015-2020</p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
